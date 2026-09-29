@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bridge Four Fan Form</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <div class="container">
+
+        <a class="navbar-brand" href="index.html">
+            Bridge Four
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="members.html">
+                        Members
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">
+                        History
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">
+                        Fan Form
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<header class="hero-section text-center">
+
+    <div class="container">
+
+        <h1 class="display-4">
+            Bridge Four Fan Form
+        </h1>
+
+        <p class="lead">
+            Tell us about your Bridge Four favorites!
+        </p>
+
+    </div>
+
+</header>
+
+
+<main class="container my-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-lg-8">
+
+            <div class="card shadow p-4">
+
+                <h2 class="text-center mb-4">
+                    Become a Bridge Four Fan
+                </h2>
+
+                <form>
+
+                    <div class="mb-3">
+
+                        <label for="name" class="form-label">
+                            Your Name
+                        </label>
+
+                        <input type="text"
+                               class="form-control"
+                               id="name"
+                               placeholder="Enter your name"
+                               required>
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label for="email" class="form-label">
+                        </label>
+
+                        <input type="email"
+                               class="form-control"
+                               id="email"
+                               placeholder="example@email.com"
+                               required>
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label for="member" class="form-label">
+                        </label>
+
+                        <select class="form-select" id="member">
+
+                            <option selected>
+                                Choose a member
+                            </option>
+
+                            <option>Kaladin</option>
+                            <option>Teft</option>
+                            <option>Lopen</option>
+                            <option>Other Bridge Four Member</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label class="form-label">
+                            What do you like most about Bridge Four?
+                        </label>
+
+                        <div class="form-check">
+
+                            <input class="form-check-input"
+                                   type="radio"
+                                   name="favorite"
+                                   id="teamwork"
+                                   value="teamwork">
+
+                            <label class="form-check-label"
+                                   for="teamwork">
+                                Teamwork
+                            </label>
+
+                        </div>
+
+                        <div class="form-check">
+
+                            <input class="form-check-input"
+                                   type="radio"
+                                   name="favorite"
+                                   id="characters"
+                                   value="characters">
+
+                            <label class="form-check-label"
+                                   for="characters">
+                                Characters
+                            </label>
+
+                        </div>
+
+                        <div class="form-check">
+
+                            <input class="form-check-input"
+                                   type="radio"
+                                   name="favorite"
+                                   id="story"
+                                   value="story">
+
+                            <label class="form-check-label"
+                                   for="story">
+                                Story
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label class="form-label">
+                            What are you interested in?
+                        </label>
+
+                        <div class="form-check">
+
+                            <input class="form-check-input"
+                                   type="checkbox"
+                                   id="books">
+
+                            <label class="form-check-label"
+                                   for="books">
+                                The books
+                            </label>
+
+                        </div>
+
+                        <div class="form-check">
+
+                            <input class="form-check-input"
+                                   type="checkbox"
+                                   id="characters">
+
+                            <label class="form-check-label"
+                                   for="characters">
+                                Characters
+                            </label>
+
+                        </div>
+
+                        <div class="form-check">
+
+                            <input class="form-check-input"
+                                   type="checkbox"
+                                   id="world">
+
+                            <label class="form-check-label"
+                                   for="world">
+                                The world of Roshar
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label for="rating" class="form-label">
+                            How much do you like Bridge Four?
+                        </label>
+
+                        <input type="range"
+                               class="form-range"
+                               min="1"
+                               max="10"
+                               id="rating">
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label for="comments" class="form-label">
+                            Comments
+                        </label>
+
+                        <textarea class="form-control"
+                                  id="comments"
+                                  rows="5"
+                                  placeholder="Tell us what you think about Bridge Four..."></textarea>
+
+                    </div>
+
+
+                    <div class="text-center">
+
+                        <button type="submit"
+                                class="btn btn-warning btn-lg">
+                            Submit Fan Form
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<footer class="bg-dark text-white text-center p-4">
+
+    <p class="mb-0">
+        Bridge Four Fansite | Competency 2 Project
+    </p>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
